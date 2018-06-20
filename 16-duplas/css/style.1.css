@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Delius', cursive;
+    font-size: 2em;
+}
+header, footer {
+    height: 60px;
+    background-color: rgb(50, 50, 50);
+    color: rgb(225, 225, 225);
+    overflow: hidden;
+}
+header > img:first-child {
+    float: left;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 15px;
+}
+
+header div {
+    float: right;
+    /* poderia fazer o mesmo com position/right
+    position: absolute;
+    right: 0;
+    */
+    /* border: 1px solid green; */
+    width: 200px;
+}
+
+header div img {
+    float: left;
+    margin: 10px;
+}
+
+header div p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header div a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: cyan;
+}
+section.noticias {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section.noticias h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+section.noticias p {
+    text-align: justify;
+    /* espaço de parágrafo: */
+    text-indent: 1.5em;
+    margin-bottom: 0.5em;
+}
+article span {
+    float: right;
+}
+article {
+    padding: 0.5em 0;
+}
+article:not(:last-child) {
+    border-bottom: 1px dashed gray;
+}
+aside {
+    background-color: powderblue;
+    float: right;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* TODO: falta um hack para 100% altura */
+    /* height: 100%; */
+}
+br.clear {
+    clear: both;
+}
+aside img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1em;
+}
+aside a {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+}
+/* TODO: espaçamento das options! */
+aside select {
+    height: 2em;
+    width: 100%;
+}
+footer {
+    clear: both;
+}
+footer div.left img {
+    margin: 10px;
+    float: left;
+}
+footer div.right img {
+    margin: 10px;
+    float: right;
+}
+footer div.left span {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 18px;
+}
+footer div.right span {
+    margin-top: 15px;
+    font-size: 0.8em;
+    text-align: right;
+    float: left;
+    width: 440px;
+}
+footer div.left {
+    float: left;
+    width: 400px;
+}
+footer div.right {
+    float: right;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

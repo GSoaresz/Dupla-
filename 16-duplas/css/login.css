@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.boxe {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Delius";
+    font-size: 1.5em;
+}
+
+header,
+footer {
+    background-color: gray;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div,
+footer>div {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+}
+
+header h1 {
+    float: left;
+}
+
+header>div>img {
+    margin: 0 10px;
+}
+
+header>div:last-child>div {
+    margin: 2px 2px 2px 2px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+header div a {
+    font-size: 0.75em;
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+header>div:last-child>div:last-child>input {
+    width: 90%
+}
+
+
+section > div > h1, input, button {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+section > div {
+    width: 500px;
+    border: 0.05em solid;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section > div > div:last-child {
+    font-size: 0.5em;
+    flex-direction: column;
+    display: flex;
+}
+
+
